@@ -6,14 +6,14 @@
 </head>
 <body>
     <h1>Test</h1>
-    <div>Autobus sa pohybuje tak , že jeho prejdena draha (v metroch) zavisi na čase podla vztahu s(t)=3-5t-9t^2+8t^3 .
-Vypočitajte v akom časovom okamihu od začiatku pohzbu bude mat autobus zrzchlenie A=690 km.h^(-2) </div>
+    <div>Autobus sa pohybuje tak , že jeho prejdena draha (v metroch) zavisi na čase podla vztahu s(t)=5-4t-7t^2+1t^3 .
+Vypočitajte v akom časovom okamihu od začiatku pohzbu bude mat autobus zrzchlenie A=1133 km.h^(-2) </div>
     <input type='text' id='userAnswer' />
     <button onclick='checkAnswer()'>Odoslať</button>
     <script>
     function checkAnswer() {
         var userAnswer = document.getElementById('userAnswer').value;
-        var correctAnswer = '{{t->14.0}}';
+        var correctAnswer = '{{t->186.5}}';
         if (userAnswer == correctAnswer) {
             alert('Правильный ответ!');
         } else {
